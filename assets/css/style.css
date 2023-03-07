@@ -1,0 +1,20 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.geral{
+  display: flex;
+  justify-content: space-between;
+  background-color: #445B69;
+  height: 90px; 
+}
+ 
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 120px;  
+  font-size: 2rem;
+  color: #ffffff;
+}
