@@ -18,3 +18,34 @@ body{
   font-size: 2rem;
   color: #ffffff;
 }
+
+.menu{
+  display: flex; 
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.active{
+  background-color: #53BD99; 
+}
+ 
+nav ul{
+  display: block;
+  display: flex;
+  list-style: none;
+  padding: 10px;  
+  padding-right: 120px;
+}
+
+nav ul li{
+  display: block;
+  padding: 18px;
+  font-weight: bold;
+}
+
+nav ul li:hover{
+  background-color: #53BD99;
+  cursor: pointer;
+}
