@@ -49,3 +49,47 @@ nav ul li:hover{
   background-color: #53BD99;
   cursor: pointer;
 }
+
+.sobre{
+  margin: 0;
+  padding: 0;
+  height: 450px;
+  background-color: #111;
+  background-image: url('../images/img1.jpg');
+  background-repeat: no-repeat; 
+  background-size:cover
+
+}
+
+h1{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  font-size: 2em;
+}
+
+.textosobre{
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn{
+  display: grid;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;   
+ border: 2px solid #ffffff;
+ display: inline-block;
+ justify-content: center;
+ margin-left: 610px;
+ padding: 15px;
+} 
