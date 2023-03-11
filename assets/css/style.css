@@ -53,13 +53,15 @@ nav ul li:hover{
 .sobre{
   margin: 0;
   padding: 0;
-  height: 450px;
-  background-color: #111;
+  height: 550px; 
+  background-color: #000;
+  background: rgb(0, 0, 0, 0.75);
   background-image: url('../images/img1.jpg');
   background-repeat: no-repeat; 
   background-size:cover
 
-}
+} 
+ 
 
 h1{
   color: #ffffff;
@@ -93,3 +95,23 @@ h1{
  margin-left: 610px;
  padding: 15px;
 } 
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.sobre .cards{
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.card{
+  width: 200px;
+  height: 250px;
+  border: 1px solid #99B0BE;
+  border-radius: 5px;
+}
