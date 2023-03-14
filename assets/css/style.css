@@ -1,14 +1,15 @@
 body{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
+header{
+  background-color: #445B69;
+}
 .geral{
   display: flex;
-  justify-content: space-between;
-  background-color: #445B69;
-  height: 90px; 
+  justify-content: space-between; 
 }
  
 .logo{
@@ -50,12 +51,9 @@ nav ul li:hover{
   cursor: pointer;
 }
 
-.sobre{
-  margin: 0;
-  padding: 0;
+.sobre{ 
   height: 550px; 
-  background-color: #000;
-  background: rgb(0, 0, 0, 0.75);
+  background-color: #000; 
   background-image: url('../images/img1.jpg');
   background-repeat: no-repeat; 
   background-size:cover
@@ -136,4 +134,9 @@ h2{
   font-size: 4em;  
   padding-left: 35%; 
   padding-top: 60px;
+} 
+
+.servicos{
+  background-color: #F5F6F8;
+  height: 200px;
 }
