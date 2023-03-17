@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  background-color: #445B69;
+  background-color: #445B69;  
 }
 .geral{
   display: flex;
@@ -56,8 +56,8 @@ nav ul li:hover{
   background-color: #000; 
   background-image: url('../images/img1.jpg');
   background-repeat: no-repeat; 
-  background-size:cover
-
+  background-size:cover;
+  
 } 
  
 
@@ -135,18 +135,30 @@ h2{
   padding-left: 35%; 
   padding-top: 60px;
 } 
-
 .servicos{
   background-color: #F5F6F8;
-  height: 200px;
+  height: 300px;
+  display: flex;
+}
+
+.serv h3{
+  display: grid;
+   
+  align-items: center;
+  justify-content: center;
 }
 
 h3{
   color: #3C4E5C;
   font-size: 2em;
-  text-transform: uppercase; 
-  text-align: center;
+  text-transform: uppercase;  
   font-weight: 300;
   padding-top: 40px;
+}
+
+.serv h4{
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
