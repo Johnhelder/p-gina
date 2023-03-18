@@ -139,6 +139,7 @@ h2{
   background-color: #F5F6F8;
   height: 300px;
   display: flex;
+  justify-content: center;
 }
 
 .serv h3{
@@ -146,6 +147,23 @@ h2{
    
   align-items: center;
   justify-content: center;
+}
+
+.serv p{
+  color: rgb(107, 107, 107);
+}
+.serv h4{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.btnserv{
+  background-color: #4DC19A;
+  color: #ffffff;
+  margin: 0;
+  padding: 12px;
+  text-transform: uppercase;
+  border: none; 
 }
 
 h3{
