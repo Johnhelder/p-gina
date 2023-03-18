@@ -53,21 +53,32 @@ nav ul li:hover{
 
 .sobre{ 
   height: 550px; 
-  background-color: #000; 
-  background-image: url('../images/img1.jpg');
+  background-color: #445B69; 
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), #445B69), url('../images/img1.jpg');
   background-repeat: no-repeat; 
-  background-size:cover;
-  
+  background-size:cover; 
+  display: flex;
+  box-sizing: border-box;
 } 
+
+ .sobre-conteudo{
+  display: block;
+  box-sizing: border-box; 
+  width: 100%;  
+text-align: center;
+ }
+
+ .textosobre a:hover{
+  border: 2px solid #99B0BE;
+  color: #4DC19A;
+ }
  
 
 h1{
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 25px;
-  font-size: 2em;
+  color: #ffffff;   
+  display: inline-block;
+  padding-top: 2rem;
+  text-align: center;
 }
 
 .textosobre{
@@ -75,13 +86,10 @@ h1{
   font-size: 1em;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
-.btn{
-  display: grid;
-  text-align: center;
-  align-items: center;
+.btn{   
   list-style: none;
   text-decoration: none;
   color: #ffffff;
@@ -89,9 +97,9 @@ h1{
   font-weight: bold;   
  border: 2px solid #ffffff;
  display: inline-block;
- justify-content: center;
- margin-left: 610px;
+ justify-content: center; 
  padding: 15px;
+ margin-top: 1rem;
 } 
 
 .cards{
@@ -116,28 +124,26 @@ h1{
 
 .icons-faceb{
   box-sizing: border-box;
-    font-size: 4em; 
-    padding-left: 35%; 
+    font-size: 3em;  
     padding-top: 60px;
     color: #ffffff;
 }
 
 h2{
   font-size: 1.25em;
-  color: #ffffff;
-  padding-left: 60px;
+  color: #ffffff; 
   font-weight: 200; 
 }
 
 .strategy{
   color: #ffffff;
-  font-size: 4em;  
-  padding-left: 35%; 
-  padding-top: 60px;
+  font-size: 3em;   
+  padding-top: 60px; 
 } 
+ 
 .servicos{
   background-color: #F5F6F8;
-  height: 300px;
+  height: 280px;
   display: flex;
   justify-content: center;
 }
