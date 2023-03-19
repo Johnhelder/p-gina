@@ -149,8 +149,7 @@ h2{
 }
 
 .serv h3{
-  display: grid;
-   
+  display: grid;   
   align-items: center;
   justify-content: center;
 }
@@ -161,6 +160,7 @@ h2{
 .serv h4{
   text-transform: uppercase;
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 .btnserv{
@@ -169,7 +169,7 @@ h2{
   margin: 0;
   padding: 12px;
   text-transform: uppercase;
-  border: none; 
+  border: none;  
 }
 
 h3{
@@ -177,7 +177,7 @@ h3{
   font-size: 2em;
   text-transform: uppercase;  
   font-weight: 300;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .serv h4{
@@ -186,3 +186,64 @@ h3{
   align-items: center;
 }
 
+/*Seção clientes*/
+
+.clientes{
+  background-color: #E3E8EE;
+  display: flex;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cli-titulo{
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #187c60;
+  font-weight:600;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cli-detalhes span{
+  color: #64B59A;
+  font-size: 1.625em;
+  font-weight: 500;
+}
+.cli{
+  font-size: 3em;
+ display: block;
+}
+
+.cli-detalhes p{
+  width: 185px;
+  font-size: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #F0F5FB;  
+}
+
+.cli-detalhes button{
+  border: 2px solid #F0F5FB;
+  padding: 10px; 
+  text-transform: uppercase;  
+}
+
+.cli-detalhes a{
+  text-decoration: none;
+  border: 2px solid #F0F5FB;
+  padding: 10px; 
+  text-transform: uppercase;
+  color: #ccc;
+  margin-top: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.cli-detalhes{
+  padding-right: 30px;
+}
+
+.cards-cli{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
