@@ -247,3 +247,34 @@ h3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+/*projetos*/
+.projetos{
+  background-color: #CED7DC;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.projet-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+ 
+.projet-geral{
+  display: flex;  
+}
+
+.projet-geral span{ 
+  display: flex;
+  justify-content: center;
+  
+}
+
+.projet-images img{
+ margin-top: 50px;
+  max-width: 200px;
+}
+
+ 
