@@ -253,28 +253,41 @@ h3{
   background-color: #CED7DC;
   height: 350px;
   display: flex;
-  justify-content: center;
+  justify-content: center;  
 }
 
+.projet-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: #4B5B65;
+  font-weight: 600;
+}
 .projet-images{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
- 
-.projet-geral{
-  display: flex;  
-}
-
-.projet-geral span{ 
-  display: flex;
-  justify-content: center;
-  
-}
+  gap: 15px;
+} 
 
 .projet-images img{
- margin-top: 50px;
-  max-width: 200px;
+ margin-top: 20px;
+  max-width: 230px;
 }
 
+.imgs{
+  border-bottom: 70px solid #ffffff;
+ height: 160px;   
+}
+
+.pro-det{
+  padding-left: 10px;
+  color: #A7ABAE;
+  font-size: 14px;
+}
+
+.pro-link{
+  display: block;
+  padding-top: -90px;
+}
  
