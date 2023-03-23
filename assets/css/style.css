@@ -290,4 +290,42 @@ h3{
   display: block;
   padding-top: -90px;
 }
+
+/*seção solução*/
+
+.solucoes{
+  display: flex;  
+  background-color: #627385; 
+  
+  justify-content: center;
+}
+.solucao{
+  height: 250px;
+}
+
+.solucao-title{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.solucao p{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 11px;
+  width: 650px;
+  text-align: center;
+}
+
+.solucao-btn{
+  background-color: #4EBF99;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  text-transform: uppercase; 
+  margin-top: 20px; 
+  margin-left: 270px;
+}
  
