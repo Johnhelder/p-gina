@@ -326,6 +326,33 @@ h3{
   color: #ffffff;
   text-transform: uppercase; 
   margin-top: 20px; 
-  margin-left: 270px;
+  margin-left: 270px; 
 }
+
+/*Footer*/
+ footer{
+  display: flex;
+  background-color: #445B69;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .copy{ 
+  text-align: center;
+  color: #ffffff;
+ }
+
+ .cop-title{
+  font-size: 2rem;
+  text-transform: uppercase;
+ }
+
+ .revi{
+  color: #659A99;
+  font-size: 1rem;
+ }
  
+ .email{
+  font-size: 1rem;
+ }
