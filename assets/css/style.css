@@ -356,3 +356,22 @@ h3{
  .email{
   font-size: 1rem;
  }
+
+ /*Responsivo*/
+
+ @media(max-width: 400px){
+  .sobre-conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.125rem;
+  }
+  .textosobre{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 13;
+    width: 300px;
+  }
+ }
