@@ -375,3 +375,26 @@ h3{
     width: 300px;
   }
  }
+
+/*responsivo projetos*/
+
+ @media(max-width: 981px){
+  .projetos{
+ background-color: #CED7DC;
+  height: 620px;
+  }
+  .projet-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .projet-images img{
+    margin-top: 20px;
+     max-width: 260px;
+   }
+
+   .imgs{
+    border-bottom: 80px solid #ffffff;
+   height: 160px;   
+  }
+   
+ }
