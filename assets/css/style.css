@@ -376,6 +376,27 @@ h3{
   }
  }
 
+ /*responsivo clientes*/
+
+ @media(max-width: 981px){
+  .clientes{
+    background-color: #E3E8EE;
+    height: 550px;
+  }
+  
+  .cli-detalhes p{
+    width: 230px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F0F5FB;  
+  }
+
+  .cards-cli{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+ }
+
 /*responsivo projetos*/
 
  @media(max-width: 981px){
