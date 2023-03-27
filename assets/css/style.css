@@ -376,6 +376,16 @@ h3{
   }
  }
 
+/*respnsivo sobre*/
+
+@media(max-width: 981px){   
+  .textosobre{
+    display: flex;
+    align-items: center;
+    padding-left: 135px; 
+    width: 600px;
+  }
+}
  /*responsivo clientes*/
 
  @media(max-width: 981px){
