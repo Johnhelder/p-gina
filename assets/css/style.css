@@ -429,3 +429,26 @@ h3{
   }
    
  }
+
+ @media(max-width: 412px){
+  .sobre-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    background-color: #ccc;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .btn{
+    margin-left: 150px;
+  }
+  .textosobre{ 
+    width: 1000px;
+    margin-right: 60px;
+  }
+ }
