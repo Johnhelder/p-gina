@@ -10,10 +10,12 @@ header{
 .geral{
   display: flex;
   justify-content: space-between; 
+  flex-wrap: wrap;
 }
  
 .logo{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-left: 120px;  
   font-size: 2rem;
@@ -22,6 +24,7 @@ header{
 
 .menu{
   display: flex; 
+  flex-wrap: wrap;
   align-items: center;
   font-size: 14px;
   color: #ffffff;
@@ -35,6 +38,7 @@ header{
 nav ul{
   display: block;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 10px;  
   padding-right: 120px;
