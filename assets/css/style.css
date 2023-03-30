@@ -371,6 +371,8 @@ h3{
   h1{
     text-align: center;
     font-size: 1.125rem;
+    padding: 0;
+    display: none;
   }
   .textosobre{
     display: grid;
@@ -455,4 +457,16 @@ h3{
     width: 1000px;
     margin-right: 60px;
   }
+ }
+
+ /*Soluções*/
+
+ @media(max-width: 412px){
+    .solucao-title{
+      font-size: 1rem;
+    }
+    .solucoes-p {
+      width: 250px;
+      font-size: 12px;
+    }
  }
