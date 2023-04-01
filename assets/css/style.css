@@ -1,34 +1,63 @@
+body, h1, h2, p, ul,li, a{
+  margin: 0;
+  padding: 0;
+}
 body{
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222;
+}
+ul{
+  list-style: none;
 }
 
-header{
-  background-color: #445B69;  
+a{
+  text-decoration: none;
 }
-.geral{
-  display: flex;
-  justify-content: space-between; 
-  flex-wrap: wrap;
+
+img{
+  display: block;
+  max-width: 100%;
 }
- 
-.logo{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 120px;  
-  font-size: 2rem;
-  color: #ffffff;
+
+*{
+  box-sizing: border-box;
+} 
+
+.menu-bg{
+  background-color: #445B69;
 }
 
 .menu{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+ 
+.menu-logo a{ 
+  align-items: center; 
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+.menu-nav{
   display: flex; 
   flex-wrap: wrap;
   align-items: center;
   font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.menu-logo a{
+  list-style: none;
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 .active{
@@ -463,7 +492,7 @@ h3{
 
  @media(max-width: 412px){
     .solucao-title{
-      font-size: 1rem;
+      font-size: 12px;
     }
     .solucoes-p {
       width: 250px;
