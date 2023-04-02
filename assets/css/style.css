@@ -54,6 +54,10 @@ img{
   text-transform: uppercase;
 }
 
+.menu-nav a{
+  color: #ffffff;
+}
+
 .menu-logo a{
   list-style: none;
   color: #ffffff;
@@ -84,6 +88,8 @@ nav ul li:hover{
   cursor: pointer;
 }
 
+/*Sobre*/
+
 .sobre{ 
   height: 550px; 
   background-color: #445B69; 
@@ -95,10 +101,11 @@ nav ul li:hover{
 } 
 
  .sobre-conteudo{
-  display: block;
-  box-sizing: border-box; 
-  width: 100%;  
+  display: block; 
+  max-width: 1000px; 
+  margin: 0 auto; 
 text-align: center;
+flex-wrap: wrap;
  }
 
  .textosobre a:hover{
@@ -137,7 +144,7 @@ h1{
 
 .cards{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center; 
   gap: 20px;
 }
