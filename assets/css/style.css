@@ -117,14 +117,15 @@ flex-wrap: wrap;
 h1{
   color: #ffffff;   
   display: inline-block;
-  padding-top: 2rem;
+  padding-top: 2em;
   text-align: center;
 }
 
 .textosobre{
+  max-width: 1000px;
   color: #ffffff;
-  font-size: 1em;
-  text-align: center;
+  padding-top: 1em;
+  font-size: 1em; 
   text-transform: uppercase;
   font-weight: bold; 
 }
@@ -181,17 +182,24 @@ h2{
   padding-top: 60px; 
 } 
  
-.servicos{
+/*Serviços*/
+
+.servicos{   
   background-color: #F5F6F8;
-  height: 280px;
+  height: 380px; 
+} 
+
+.servicos-detalhes{
   display: flex;
-  justify-content: center;
+  max-width: 1000px; 
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .serv h3{
   display: grid;   
-  align-items: center;
-  justify-content: center;
+  align-items: center; 
+  padding-top: 70px;
 }
 
 .serv p{
@@ -210,6 +218,7 @@ h2{
   padding: 12px;
   text-transform: uppercase;
   border: none;  
+  margin-top: 20px;
 }
 
 h3{
