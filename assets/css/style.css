@@ -238,20 +238,25 @@ h3{
 /*Seção clientes*/
 
 .clientes{
-  background-color: #E3E8EE;
-  display: flex;
-  height: 350px;
-  align-items: center;
-  justify-content: center;
+  background-color: #E3E8EE; 
+  height: 420px;
+  align-items: center; 
+}
+
+.clientes-geral{ 
+  max-width: 1000px;
+  margin: 0 auto;
+
 }
 
 .cli-titulo{
   text-transform: uppercase;
   font-size: 1em;
   color: #187c60;
-  font-weight:600;
-  text-align: center;
+  font-weight:600; 
   padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
 .cli-detalhes span{
