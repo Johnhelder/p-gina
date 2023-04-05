@@ -306,13 +306,16 @@ h3{
 .projetos{
   background-color: #CED7DC;
   height: 350px;
-  display: flex;
-  justify-content: center;  
+  display: flex; 
+}
+
+.projet-geral{
+  max-width: 1000px;
+  margin: 10px auto;
 }
 
 .projet-title{
-  display: flex;
-  justify-content: center;
+  display: flex; 
   margin-top: 40px;
   text-transform: uppercase;
   color: #4B5B65;
@@ -334,10 +337,10 @@ h3{
  height: 160px;   
 }
 
-.pro-det{
-  padding-left: 10px;
+.pro-det{ 
   color: #A7ABAE;
-  font-size: 14px;
+  font-size: 1em; 
+  color: #4EBF99;
 }
 
 .pro-link{
