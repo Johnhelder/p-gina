@@ -96,7 +96,7 @@ nav ul li:hover{
   background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), #445B69), url('../images/img1.jpg');
   background-repeat: no-repeat; 
   background-size:cover; 
-  display: flex;
+  display: flex; 
   box-sizing: border-box;
 } 
 
@@ -148,6 +148,7 @@ h1{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center; 
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .sobre .cards{
@@ -357,7 +358,7 @@ h3{
   justify-content: center;
 }
 .solucao{
-  height: 250px;
+  height: 280px;
 }
 
 .solucao-title{
@@ -365,7 +366,7 @@ h3{
   text-transform: uppercase;
   text-align: center;
   font-size: 25px;
-  padding-top: 50px;
+  padding: 40px 40px;
 }
 
 .solucao p{
